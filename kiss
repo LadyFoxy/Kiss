@@ -1,0 +1,796 @@
+####################################################
+# Configuration:                                   #
+# via DCC:                                         #
+# .chanset <#channel> +kiss    - enables           #
+# .chanset <#channel> -kiss    - disables          #
+####################################################
+# Usage:                                           #
+# anyone can feed the bot by typing                #
+# .botsnack                                        #
+####################################################
+# define channel flag to enable quotes.
+setudef flag kiss
+# define trigger
+#you can change the triggers to what you want
+ 
+bind pub -|- .slap  pub_slap
+set randomreply {
+"across the head with a wet noodle"
+"to death with a big stick for a few minutes..."
+"with a hairy, slimey, smelly, and contaminated trout!"
+"with a rotten trout!"
+"around the head with a jelly fish."
+"with a great big, wet, 100% rubber DUCK!"
+"with a bull horn"
+"across the face with a used condom"
+"with the back hand"
+"with a book by Stephen King"
+"with a tuna. Still in the can! *BONK* That will leave a mark"
+"with Windows Update"
+
+}
+ 
+
+bind pub -|- .kiss  pub_kiss
+set randomreply2 {
+"passionately on the lips"
+"on the lips"
+}
+ 
+
+bind pub -|- .flirt  pub_flirt
+set randomreply3 {
+"\"Do you work at Starbucks? Because I like you a latte.\""
+"\"I like Legos, you like Legos, why don't we build a relationship?\""
+"\"I will stop hitting on you when an apple grows from a mango tree on the 30th of February.\""
+"\"Are you a parking ticket? 'Cause you've got fine written all over you.\""
+"\"Do you have a Band-Aid? Because I just scraped my knee falling for you.\""
+"\"I wish I could select all of your clothes and press 'delete'...\""
+"\"Me without you is like a nerd without braces, A shoe without laces, aSentenceWithoutSpaces\""
+"\"I don't have a library card, but do you mind if I check you out?\""
+"\"I looked up your name in the Thesaurus today and it was included under hot stuff!\""
+"\“I want you to love me. I want you to trust me enough to let me love you, and I want you to stay here with me so we can build a life together. That’s what I want.\""
+"\"If you were a bullet I would shoot myself to have you in me.\""
+"\"I’m a fish swimming by … catch me if you want me.\""
+"\"Not even Snape could Severus apart.\""
+"\"Are you Darth Vader? Because I wouldn't mind if you used a little force to choke me.\""
+"\"Are you a dementor? Because you take my breath away.\""
+"\"Roses are #FF0000, violets are #0000FF. All my base are belong to you.\""
+"\"I think my heart just lagged after seeing you.\""
+"\"Are you Google? Because you have everything I’m searching for.\""
+"\"[me != me]. [me += you].\""
+"\"Come to my 127.0.0.1 and I’ll give you sudo access.\""
+"\"Do u like me? Text '1′ for 'Yes,' '2′ for 'No.\""
+"\"Here's my number: 0011 0011 1011 0001 0010 1000 0101\""
+"\"My name is #####, and I speak Klingon.\""
+"\"Roses are #FF0000, violets are #0000FF. All my base are belong to you.\""
+
+
+} 
+ 
+bind pub -|- .kicks  pub_kicks
+set randomreply6 {
+" in the knee"
+"'s toe"
+" in the thigh"
+" in the ass"
+"in the balls"
+
+}
+
+bind pub -|- .spank  pub_spank
+set randomreply7 {
+"\"Use the Hello Kitty paddle\""
+"\"Use YOUR HANDS\""
+"\"Use the crop next time\""
+"\"NO, PLEASE DON'T\""
+"\"Harder\""
+"\"GIVE ME MORE, MORE I TELL YOU\""
+"\"BAAAAAAH\""
+
+} 
+
+bind pub -|- .food pub_food
+
+bind pub -|- .scissor pub_scissor
+
+bind pub -|- .covid pub_covid
+
+bind pub -|- .lick pub_lick
+
+bind pub -|- .punch  pub_punch
+
+bind pub -|- .pizza  pub_pizza
+
+bind pub -|- .smack pub_smack
+
+bind pub -|- .burn  pub_burn
+
+bind pub -|- .weed pub_weed
+
+bind pub -|- .cook pub_cook
+
+bind pub -|- .chicken pub_chicken
+
+bind pub -|- .coffee pub_coffee
+
+bind pub -|- .tea pub_tea
+
+bind pub -|- .vodka pub_vodka
+
+bind pub -|- .cookie pub_cookie
+
+bind pub -|- .water pub_water
+
+bind pub -|- .beef pub_beef
+
+bind pub -|- .beer pub_beer
+
+bind pub -|- .juice pub_juice
+
+bind pub -|- .corona pub_corona
+
+bind pub -|- .whiskey pub_whiskey
+
+bind pub -|- .chocolate pub_chocolate
+
+bind pub -|- .baileys pub_baileys
+
+bind pub -|- .wine pub_wine
+
+bind pub -|- .hbd pub_hbd
+
+bind pub -|- .hotcocoa pub_hotcocoa
+
+bind pub -|- .cake  pub_cake
+
+bind pub -|- .bacon  pub_bacon
+
+bind pub -|- .lemonade  pub_lemonade
+
+bind pub -|- .icecream  pub_icecream
+
+bind pub -|- .tequila  pub_tequila
+
+bind pub -|- .margarita  pub_margarita
+
+bind pub -|- .darkroast  pub_darkroast
+
+bind pub -|- .candlelight  pub_candlelight
+
+bind pub -|- .crumpet  pub_crumpet
+
+bind pub -|- .help pub_help
+
+bind pub -|- .xrated pub_xrated
+
+bind pub -|- .pg pub_pg
+ 
+bind pub -|- .poke  pub_poke
+ 
+bind pub -|- .hug pub_hug
+
+bind pub -|- .cpr pub_cpr
+
+bind pub -|- .chainsaw pub_chainsaw
+
+bind pub -|- .beat pub_beat
+
+bind pub -|- .kill  pub_kill
+
+bind pub -|- .murder  pub_murder
+
+bind pub -|- .kidnap  pub_kidnap
+
+bind pub -|- .voodoo  pub_voodoo
+
+bind pub -|- .skin  pub_skin
+
+bind pub -|- .heart pub_heart
+
+bind pub -|- .stab pub_stab
+
+bind pub -|- .hatchet pub_hatchet
+
+bind pub -|- .tickle pub_tickle
+
+bind pub -|- .choke pub_choke
+
+bind pub -|- .kills pub_kills
+
+bind pub -|- .deepkiss pub_deepkiss
+
+bind pub -|- .pistol pub_pistol
+
+bind pub -|- .gun pub_gun
+
+bind pub -|- .rub pub_rub
+
+bind pub -|- .grab pub_grab
+
+bind pub -|- .wall pub_wall
+
+bind pub -|- .vampire pub_vampire
+
+bind pub -|- .tacklehugs pub_tacklehugs
+
+bind pub -|- .gn pub_gn
+
+bind pub -|- .gm pub_gm
+
+bind pub -|- .hello pub_hello
+
+bind pub -|- .fingers pub_fingers
+
+bind pub -|- .massage pub_massage
+
+bind pub -|- .grind pub_grind
+
+bind pub -|- .cuddles pub_cuddles
+
+bind pub -|- .dance pub_dance
+
+bind pub -|- .dungeon pub_dungeon
+
+bind pub -|- .sex pub_sex
+
+bind pub -|- .hump pub_hump
+
+bind pub -|- .mount pub_mount
+
+bind pub -|- .jizz pub_jizz
+
+bind pub -|- .asskick pub_asskick
+
+bind pub -|- .prod  pub_prod
+
+bind pub -|- .fuckyou  pub_fuckyou
+
+bind pub -|- .fuck  pub_fuck
+
+bind pub -|- .rose pub_rose
+
+bind pub -|- .acid  pub_acid
+
+bind pub -|- .eunich  pub_eunich
+
+bind pub -|- .luv  pub_luv
+
+bind pub -|- .snuggles  pub_snuggles
+
+bind pub -|- .snuggle  pub_snuggle
+
+bind pub -|- .Oscausi pub_Oscausi
+
+bind pub -|- .slug  pub_slug
+
+bind pub -|- .expelliarmus  pub_expelliarmus
+
+bind pub -|- .Revelio  pub_Revelio
+
+bind pub -|- .herbifors pub_herbifors
+
+bind pub -|- .serpensortia  pub_serpensortia
+
+bind pub -|- .spells pub_spells
+
+bind pub -|- .rape pub_rape
+
+bind pub -|- .anal pub_anal
+
+proc pub_slap {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ global randomreply
+ set botsays [lindex $randomreply [rand [llength $randomreply]]]
+ if {[channel get $chan kiss]} {
+# putchan $chan "$botsays $arg"
+putserv "privmsg $chan :\001ACTION hides as $nick slaps $arg $botsays\001"
+}
+}
+
+ 
+proc pub_kiss {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ global randomreply2
+ set botsays2 [lindex $randomreply2 [rand [llength $randomreply2]]]
+ if {[channel get $chan kiss]} {
+# putchan $chan "$botsays $arg"
+putserv "privmsg $chan :\001ACTION watches $nick kissing \0033$arg\003 $botsays2\001" 
+}
+}
+ 
+
+proc pub_flirt {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ global randomreply3
+ set botsays3 [lindex $randomreply3 [rand [llength $randomreply3]]]
+ if {[channel get $chan kiss]} {
+# putchan $chan "$botsays $arg"
+putserv "privmsg $chan :\001ACTION eavesdrops on $nick flirting with \0033$arg\003 $botsays3\001" 
+}
+}
+
+ 
+proc pub_kicks {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ global randomreply6
+ set botsays6 [lindex $randomreply6 [rand [llength $randomreply6]]]
+ if {[channel get $chan kiss]} {
+# putchan $chan "$botsays $arg"
+putserv "privmsg $chan :\001ACTION watches $nick kicking $arg$botsays6\001" 
+}
+}
+ 
+proc pub_spank {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ global randomreply7
+ set botsays7 [lindex $randomreply7 [rand [llength $randomreply7]]]
+ if {[channel get $chan kiss]} {
+# putchan $chan "$botsays $arg"
+putserv "privmsg $chan :\001ACTION accidentally walks in on $nick spanking \0033$arg\003, while \0033$arg\003 is yelling $botsays7\001"
+}
+}
+
+proc pub_scissor  {nick uhost hand chan arg} {
+set chan [string tolower $chan]
+putserv "privmsg $chan :\001ACTION watches $nick part $arg's legs and puts their own legs between them and starts rubbing vaginas frantically.\001"
+}
+
+proc pub_food  {nick uhost hand chan arg} {
+set chan [string tolower $chan]
+putserv "privmsg $chan :\001ACTION help,spells,xrated,pg,lick,liks,punch,covid,pizza,smack,burn,cook,chicken,coffee,crumpet,tea,vodka,cookie,water,beef,juice,corona,whiskey,chocolate,baileys,wine,hotcocoa,cake,lemonade,bacon,icecream,tequila,margarita,darkroast,candlelight \001"
+}
+
+proc pub_covid {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION coughs on $nick and spreads covid to $arg\001" 
+}
+
+proc pub_lick {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick lick $arg's on the face\001" 
+}
+
+proc pub_punch {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION hears $nick offer $arg a glass of punch\001" 
+}
+
+proc pub_pizza {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION gives $arg a large slice of pizza\001" 
+}
+ proc pub_smack {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION smack $arg across the face with a banana\001" 
+}
+ proc pub_burn {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION witnessed $arg burn the toast this morning for breakfast\001" 
+}
+ proc pub_weed {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION lights up a spliff and passes it to $arg saying puff puff pass my nigga\001" 
+}
+
+proc pub_cook {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick cooking food for $arg\001"
+}
+
+proc pub_chicken {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION sticks feather on $arg and calls him/her a chicken\001"
+}
+
+proc pub_coffee {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION makes $arg a nice hot cup of coffee \001"
+}
+proc pub_tea {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION gives $arg a mug of 3green tea\001"
+}
+
+proc pub_vodka {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION slides $arg a bottle of vodka and says cheers!\001"
+}
+
+proc pub_cookie {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION bakes chocolate chip cookies for $arg \001"
+}
+
+proc pub_water  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION gives $arg a cold glass of water\001"
+}
+proc pub_beef  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION gives $arg a big beef shawarma and a nice cold can of pepsi \001"
+}
+
+proc pub_beer  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION spies $nick give $arg a nice cold beer\001"
+}
+
+proc pub_juice  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION gives $arg a nice cold glass of orange juice\001"
+}
+proc pub_corona  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick give $arg a cold bottle of corona\001"
+}
+
+proc pub_whiskey  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION gives $arg a glass of black label whiskey while saying cheers\001"
+}
+
+proc pub_chocolate  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION saw $nick give chocolate kisses candy to $arg \001"
+}
+proc pub_baileys  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION gives $arg a nice cold glass of baileys\001"
+}
+
+proc pub_wine  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick and $arg drink a glass of chilled rose wine\001"
+}
+
+proc pub_crumpet  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION hands $arg soggy dundee baked crumpet with extra glazing\001"
+}
+
+proc pub_hbd  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION throws 6CONFETTI & 11BALLOONS 10in the air and screams '26Happy25Birthday24Day $arg\001"
+}
+proc pub_hotcocoa {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION makes $arg a nice cup of hot chocolate with extra marshmellows\001"
+}
+
+proc pub_cake  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION offers $arg a slice of cake of their choice\001"
+}
+
+proc pub_lemonade  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION offers $arg a glass of freshly squeezed lemonade\001"
+}
+proc pub_bacon  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION cooks some crispy bacon for $arg \001"
+}
+
+proc pub_icecream  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION offers $arg a double scoop of ice cream to enjoy\001"
+}
+
+proc pub_tequila  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION pours a shot of tequila for $arg and $nick \001"
+}
+proc pub_margarita  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION slides $arg a large frozen margarita\001"
+}
+
+proc pub_darkroast  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION makes $arg a hot cup of dark roasted coffee\001"
+}
+
+proc pub_candlelight  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION has set up a table for $nick and $arg to have a nice quiet candlelight dinner alone.\001"
+}
+
+proc pub_help  {nick uhost hand chan arg} {
+set chan [string tolower $chan]
+putserv "privmsg $chan :\001ACTION food,spells,xrated,pg,poke,chainsaw,beat,burn,kill,murder,kidnap,voodoo,skin,stab,hatchet,choke,kills,pistol,gun,vampire,asskick,acid,eunich \001"
+}
+ 
+proc pub_xrated  {nick uhost hand chan arg} {
+set chan [string tolower $chan]
+putserv "privmsg $chan :\001ACTION help,scissor,spells,food,pg,rape,anal,deepkiss,fingers,massage,grind,cuddles,dungeon,sex,hump,mount,jizz,fuckyou,fuck,prod,rub,grab,wall,cpr\001"
+}
+ 
+proc pub_pg  {nick uhost hand chan arg} {
+set chan [string tolower $chan]
+putserv "privmsg $chan :\001ACTION help,food,xrated,slap,kiss,flirt,hug,heart,tickle,tacklehugs,gn,gm,hello,snuggles,snuggle,dance,luv,rose,hbd,weed\001"
+}
+ 
+proc pub_poke {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION pokes $arg in the eyes with a sharp pencil\001" 
+}
+ 
+proc pub_hug {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick give $arg a warm and tight hug\001"
+}
+ 
+proc pub_cpr {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick perform mouth to mouth CPR on $arg only to have $arg stick their tongue into $nick mouth\001" 
+}
+ 
+proc pub_chainsaw {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION smiles sweetly at $arg taking out the chainsaw and slicing $arg's arms and legs off leaving only eyeballs behind, smiling deviantly at their horrific work\001" 
+}
+ 
+proc pub_beat {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION was a witness of watching $nick beat $arg with a sledgehammer\001" 
+}
+ 
+proc pub_kill {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick kill $arg with a glock nine\001" 
+}
+
+proc pub_murder {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick murder $arg with an axe\001"
+}
+
+proc pub_kidnap {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION helps $nick kidnap $arg by placing them in the trunk of the car \001"
+}
+
+proc pub_voodoo {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick do some voodoo magic on $arg by turning them into a zombie\001"
+}
+
+proc pub_skin {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick skin $arg with a sharp hunting knife\001"
+}
+
+proc pub_heart {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION puts $nick's hands onto $arg's ❤❤❤ heart ❤❤❤ as $nick looks longingly into their eyes \001"
+}
+
+proc pub_stab  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick viciously stabs $arg in the chest, twisting the blade deeper and deeper until $arg is no longer moving then yanks the blade out with the heart still attached. \001"
+}
+
+proc pub_hatchet  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION runs at $arg with the speed of lightning, removing $arg's head with the rusted hatchet \001"
+}
+
+proc pub_tickle  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick tickle $arg with a white feather\001"
+}
+
+proc pub_choke  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION choke $arg with a HDMI cable\001"
+}
+
+proc pub_kills  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION selects her favorite stick of bodily destruction and utterly destroys $arg, assasinating $arg as planned by $nick\001"
+}
+
+proc pub_deepkiss  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick pick up $arg and sets them on the counter before grabbing their sides firmly and pulling them closer as $nick leans forward and kisses $arg on the lips nearly stumbling over\001"
+}
+    
+
+proc pub_pistol  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick pull out a gun and pistol whips $arg with it.\001"
+}
+
+proc pub_gun  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick pull out a gun and puts a bullet in $arg head\001"
+}
+
+proc pub_rub {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick rub baby oil all over $arg\001"
+}
+
+proc pub_grab  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick as they grab $arg by the sides and and pulls them down as $nick falls backwards so that $arg lands on top. $nick brushes $arg's hair out of their face and looks longingly into their eyes before kissing their nose, then a light brush on their lips\001"
+}
+
+proc pub_wall  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick move over to $arg and puts his hands against the wall blocking $arg's movement. $nick quickly moves a hand from the wall and puts it on the small of $arg's back as he brushes his lips against the side of $arg's neck, his hand on her back roaming upwards, his body close to hers\001"
+}
+
+proc pub_vampire  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick sinks their fangs into $arg neck turning them into a vampire\001"
+}
+
+proc pub_tacklehugs  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick tacklehugs $arg and they both fall to the ground\001"
+}
+
+proc pub_gn  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick give $arg a big good night hug\001"
+}
+
+proc pub_gm  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION tells $arg good morning hot pants\001"
+}
+
+proc pub_hello  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION listens in while $nick tells $arg hello\001"
+}
+
+proc pub_fingers  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick using their magic fingers on $arg\001"
+}
+
+proc pub_massage  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick give $arg a deep penetrating massage\001"
+}
+
+proc pub_grind  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick grind on $arg \001"
+}
+
+proc pub_cuddles  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick cuddle up with $arg on the sofa\001"
+}
+
+proc pub_dance  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick take $arg into their arms and sway to the music with them\001"
+}
+
+proc pub_dungeon  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick send $arg to the dungeon for being naughty\001"
+}
+
+proc pub_sex  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick have hot and steamy sex with $arg all throughout the house\001"
+}
+
+proc pub_hump  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick hump $arg in the shower\001"
+}
+
+proc pub_mount  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick mount $arg and ride him like the stallion he is\001"
+}
+
+proc pub_jizz  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick pull out his cawk and starts whack'n it and starting aiming wildly.. o0o0o0oo0o start JiZz'N all over the place..it starts flying thru the muhhhfukkkk'N air and lands in $arg'z hair and on their face !!\001"
+}
+
+proc pub_asskick  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick kick $arg'z ass all around the channel!!\001"
+}
+
+proc pub_prod  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION prods $arg with a giant dildo\001"
+}
+
+proc pub_fuckyou  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION tells $arg fuck you\001"
+}
+
+proc pub_fuck  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick grabs $arg from behind, bends her over and rough fucks her making her moan and scream out his name.\001"
+}
+
+proc pub_rose  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick offer $arg a rose 4@3>--`---,---!\001"
+}
+
+proc pub_acid  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick lower $arg into a vat of hot acid watching the flesh melt off their bones\001"
+}
+
+proc pub_eunich  {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick turn $arg  into a eunich with two bricks!\001"
+}
+
+proc pub_luv {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick tell $arg I love you and tells $arg to stay with me until the end of time.\001"
+}
+
+proc pub_snuggles {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick snuggles with $arg on the couch\001"
+}
+
+proc pub_snuggle {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION climbs on the couch to snuggle with $nick and $arg while watching a movie on NetFlix.\001"
+}
+
+proc pub_Oscausi  {nick uhost hand chan arg} {
+set chan [string tolower $chan]
+putserv "privmsg $chan :\001ACTION points wand at $arg while saying Oscausi, $arg tries to talk but they lost their ability to talk\001"
+}
+
+proc pub_slug {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION watches $nick casts the spell Slugulus Eructo at $arg, in the blink of an eye $arg starts vomitting slugs and slime \001" 
+}
+
+proc pub_expelliarmus {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION hears $nick give the command expelliarmus and $arg wand immediately flies out of their hand\001" 
+}
+
+proc pub_Revelio {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION speaks the word Revelio. A message is shown on the wall stating $nick loves shagging sheep for fun\001" 
+}
+ proc pub_herbifors {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION looked on with amazement as $nick issues the command herbifors on $arg. Wild Flowers instantly starts sprouting on $arg\001" 
+}
+ proc pub_serpensortia {nick uhost hand chan arg} {
+ set chan [string tolower $chan]
+ putserv "privmsg $chan :\001ACTION starts running away as soon as $nick says the word serpensortia, Conjuring a serpent from the $nick's wand. \001" 
+}
+
+proc pub_spells  {nick uhost hand chan arg} {
+set chan [string tolower $chan]
+putserv "privmsg $chan :\001ACTION Oscausi,slug,expelliarmus,Revelio,herbifors,serpensortia\001" 
+}
+
+proc pub_rape  {nick uhost hand chan arg} {
+set chan [string tolower $chan]
+putserv "privmsg $chan :\001ACTION stumbled across $arg being raped by $nick in the barn!\001" 
+}
+
+proc pub_anal  {nick uhost hand chan arg} {
+set chan [string tolower $chan]
+putserv "privmsg $chan :\001ACTION witnessed $nick bending $arg over and anally violating $arg\001" 
+}
+
+
+putlog "my \0034flirt script by Foxy v1.0 loaded"
+
+
